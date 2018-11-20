@@ -142,8 +142,7 @@ select( string str, vector< Range > ranges, bool bytes, bool complement )
 }
 
 /*************************************************
- * Sorry don't have VS to use gtest for unit test, where I can set the expectations
- * and return true or false. Don't want to use company given IDE.
+ 
  * Here I am passing the desired output and checking with the end result,
  * if string matches test case is passed otherwise failed.
  *
